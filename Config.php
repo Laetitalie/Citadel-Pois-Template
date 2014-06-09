@@ -26,21 +26,21 @@ define("SERVERNAME", "http://localhost/");
  ***********************************************************
  */
  
-define("BASE_DIR", "Citadel-Pois-Template/" );
+define("BASE_DIR", "issypois/" );
 define("CLASSES_DIR", "php/");
 define("CLASSES", HTDOCS_ROOT . BASE_DIR . CLASSES_DIR);
 
 define("DEBUG", true);
 
 // dataset
-define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_gent.json");
+define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/issy.json");
 define("DATASET_ID", 36);
 define("DATASET_URL", SERVERNAME . BASE_DIR . "dataset.php");
 define("USE_DATABASE", false);
 
-// Map Options (coords point to center of Gent)
-define("MAP_CENTER_LATITUDE", 51.033261); 
-define("MAP_CENTER_LONGITUDE", 3.726488);
+// Map Options (coords point to center of Issy-les-Moulineaux)
+define("MAP_CENTER_LATITUDE", 48.8239654); 
+define("MAP_CENTER_LONGITUDE", 2.26274);
 define("MAP_ZOOM", 16);
 
 // database

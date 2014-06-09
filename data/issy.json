@@ -1,0 +1,756 @@
+{
+    "dataset": {
+        "id": -320092969,
+        "created": "2014-06-09T14:33:08+00:00",
+        "updated": "2014-06-09T14:33:08+00:00",
+        "lang": "fr-FR",
+        "author": {
+            "id": "author-id",
+            "value": "Issy Media"
+        },
+        "license": {
+            "href": "http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence",
+            "term": "Licence Ouverte"
+        },
+        "link": {
+            "href": "http://www.issy.com",
+            "term": "source"
+        },
+        "updatefrequency": "",
+        "poi": [
+            {
+                "id": "1",
+                "title": "Mairie d'Issy",
+                "description": "Administration",
+                "category": [
+                    "Mairie"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8244518 2.2737451"
+                        }
+                    },
+                    "address": {
+                        "value": "62 rue du Général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issy.com/en/home",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Hotel Résid' Home",
+                "description": "Hotel Restaurant",
+                "category": [
+                    "Hôtel"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8259319 2.2601190"
+                        }
+                    },
+                    "address": {
+                        "value": "22 rue du passeur de Boulogne",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.residhome.com/uk/hotel-residence-aparthotel-issylesmoulineaux-240.html",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "Le Moulin d'Issy",
+                "description": "Hotel Restaurant",
+                "category": [
+                    "Restaurant"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8239131 2.2604341"
+                        }
+                    },
+                    "address": {
+                        "value": "1 place Jacques Madaule",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.lemoulindissy.com/",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Fort d'Issy",
+                "description": "Administration",
+                "category": [
+                    "Fort d'Issy"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8168419 2.2690018"
+                        }
+                    },
+                    "address": {
+                        "value": "Rue du Fort ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issy.com/en/home/urban-planning/major-urban-projects",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "title": "Centre administratif",
+                "description": "Administration",
+                "category": [
+                    "CAM"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8245306 2.2743418"
+                        }
+                    },
+                    "address": {
+                        "value": "47 rue du Général Leclerc ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issy.com/en/home",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": "Parc de l'Île Saint Germain ",
+                "description": "Loisirs",
+                "category": [
+                    "Parc"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8249524 2.2575065"
+                        }
+                    },
+                    "address": {
+                        "value": "170 Quai de Stalingrad",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "https://www.issy.com/ma-ville/histoire/patrimoine/parc-de-l-ile-saint-germain",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "7",
+                "title": "Hôpital ",
+                "description": "Service",
+                "category": [
+                    "Hôpital"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8277684 2.2788730"
+                        }
+                    },
+                    "address": {
+                        "value": "4 parvis Corentin Celton ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "8",
+                "title": "Commissariat",
+                "description": "Service",
+                "category": [
+                    "Police"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8235050 2.2699784"
+                        }
+                    },
+                    "address": {
+                        "value": "22 avenur Victor Cresson",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "9",
+                "title": "Pharmacie de la Mairie ",
+                "description": "Service",
+                "category": [
+                    "Pharmacie"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8248281 2.2727233"
+                        }
+                    },
+                    "address": {
+                        "value": "30 Avenue de la République",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "10",
+                "title": "Pharmacie Carrefour de Weiden",
+                "description": "Service",
+                "category": [
+                    "Pharmacie"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8227767 2.2678090"
+                        }
+                    },
+                    "address": {
+                        "value": "116 Boulevard Gallieni",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "11",
+                "title": "Banque HSBC",
+                "description": "Service",
+                "category": [
+                    "Banque"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8243202 2.2736594"
+                        }
+                    },
+                    "address": {
+                        "value": "59 Rue du Général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "12",
+                "title": "Banque BNP Paribas",
+                "description": "Service",
+                "category": [
+                    "Banque"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8242895 2.2750167"
+                        }
+                    },
+                    "address": {
+                        "value": "55 Rue du Général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "13",
+                "title": "Banque Caisse d'Epargne",
+                "description": "Service",
+                "category": [
+                    "Banque"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8237791 2.2725007"
+                        }
+                    },
+                    "address": {
+                        "value": "4 Avenue Victor Cresson",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "14",
+                "title": "Banque Société Générale",
+                "description": "Service",
+                "category": [
+                    "Banque"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8235788 2.2727575"
+                        }
+                    },
+                    "address": {
+                        "value": "1 Rue André Chénier",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "15",
+                "title": "Bureau de Poste",
+                "description": "Service",
+                "category": [
+                    "La Poste"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8230989 2.2694601"
+                        }
+                    },
+                    "address": {
+                        "value": "26 Avenue Victor Cresson",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "16",
+                "title": "Monoprix (supermarket)",
+                "description": "Service",
+                "category": [
+                    "Monoprix"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8243833 2.2739643"
+                        }
+                    },
+                    "address": {
+                        "value": "57 Rue du Général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "17",
+                "title": "Arbre remarquable : Cèdre de l'Atlas fastigié",
+                "description": "Loisirs",
+                "category": [
+                    "Arbre"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8239557 2.2652181"
+                        }
+                    },
+                    "address": {
+                        "value": "9 Rue d'Estienne d'Orves ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://qrcode.hortipass.net/Resources/images/phoneCatalogueNew/imageArticleHandler.jpg?numeroSociete=85&numeroCatalogue=42&numeroLigneArticle=1&hauteur=480&numeroImage=0",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "18",
+                "title": "Arbre remarquable : Tulipier de Virginie",
+                "description": "Loisirs",
+                "category": [
+                    "Arbre"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8255905 2.2648275"
+                        }
+                    },
+                    "address": {
+                        "value": "Avenue Jean Bouin ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://arbres.antony.free.fr/images/High/tulipierruedelafontedesgodetsmai04.jpg",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "title": "Arbre remarquable : Sophora du Japon",
+                "description": "Loisirs",
+                "category": [
+                    "Arbre"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8240841 2.2606809"
+                        }
+                    },
+                    "address": {
+                        "value": "Place Jacques Madaule",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://qrcode.hortipass.net/Resources/images/phoneCatalogueNew/imageArticleHandler.jpg?numeroSociete=85&numeroCatalogue=31&numeroLigneArticle=1&hauteur=480&numeroImage=0",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "20",
+                "title": "Métro Mairie d'Issy (subway - line 12)",
+                "description": "Service",
+                "category": [
+                    "Métro"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8239354 2.2733028"
+                        }
+                    },
+                    "address": {
+                        "value": "63 rue du Général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.ratp.fr/informer/pdf/orienter/f_plan.php?nompdf=m12",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "21",
+                "title": "Embarquement le Coche d'eau (board on the boat)",
+                "description": "Hotel Restaurant",
+                "category": [
+                    "Bateau"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8292499 2.2551008"
+                        }
+                    },
+                    "address": {
+                        "value": "55 quai du Point du Jour",
+                        "postal": "92100.0",
+                        "city": "Boulogne-Billancourt"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.quai55.com/nos-bateaux/le-coche-deau/",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "22",
+                "title": "Maison du Tourisme et des Loisirs",
+                "description": "Service",
+                "category": [
+                    "Musée"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8252894 2.2728230"
+                        }
+                    },
+                    "address": {
+                        "value": "Place Bonaventure Leca",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issytourisme.com/en/homepage/",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "23",
+                "title": "Médiathèque",
+                "description": "Loisirs",
+                "category": [
+                    "Musée"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8261459 2.2701120"
+                        }
+                    },
+                    "address": {
+                        "value": "33 rue du Gouverneur Eboué",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issy.com/storage/musee/index.html",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "24",
+                "title": "Musée Français de la Carte à Jouer",
+                "description": "Loisirs",
+                "category": [
+                    "Musée"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8226781 2.2734196"
+                        }
+                    },
+                    "address": {
+                        "value": "16 Rue Auguste Gervais",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.issy.com/storage/musee/index.html",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "title": "Séminaire St Sulpice",
+                "description": "Loisirs",
+                "category": [
+                    "Musée"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8254811 2.2768403"
+                        }
+                    },
+                    "address": {
+                        "value": "33 rue du général Leclerc",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.sulpissy.info/",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            },
+            {
+                "id": "26",
+                "title": "Tabac de la Mairie d'Issy",
+                "description": "Service",
+                "category": [
+                    "Tabac"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8240719 2.2724888"
+                        }
+                    },
+                    "address": {
+                        "value": "38 rue Diderot ",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": []
+            },
+            {
+                "id": "27",
+                "title": "Librairie Chantelivre",
+                "description": "Service",
+                "category": [
+                    "Livre"
+                ],
+                "location": {
+                    "point": {
+                        "term": "centroid",
+                        "pos": {
+                            "srsName": "http://www.opengis.net/def/crs/EPSG/0/4326",
+                            "posList": "48.8243361 2.2729444"
+                        }
+                    },
+                    "address": {
+                        "value": "32 Avenue de la République",
+                        "postal": "92130.0",
+                        "city": "Issy-les-Moulineaux"
+                    }
+                },
+                "attribute": [
+                    {
+                        "term": "Website",
+                        "type": "url",
+                        "text": "http://www.chantelivre.com/librairies.php?libId=issy&rubLib=pres",
+                        "tplIdentifier": "#Citadel_website"
+                    }
+                ]
+            }
+        ]
+    }
+}

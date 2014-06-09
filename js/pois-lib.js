@@ -135,13 +135,13 @@ function addMarkers()
 function getMarkerImage(category) {
     var coloredMarkers = new Array();
 
-    for (var j = 0; j < 10; j++) {
+    for (var j = 0; j < filters.length; j++) {
         coloredMarkers[j] = 'images/pin' + j + '.png';
     }
 
     for (i = 0; i < filters.length; i++) {
         if (filters[i].name == category) {
-            return coloredMarkers[i % 10];
+            return coloredMarkers[i];
         }
     }
 }
@@ -151,13 +151,13 @@ function getMarkerClass(category) {
 
     var coloredClassMarkers = new Array();
 
-    for (var j = 0; j < 10; j++) {
+    for (var j = 0; j < filters.length; j++) {
         coloredClassMarkers[j] = 'pin' + j;
     }
 
     for (i = 0; i < filters.length; i++) {
         if (filters[i].name == category) {
-            return coloredClassMarkers[i % 10];
+            return coloredClassMarkers[i];
         }
     }
 }
@@ -264,6 +264,7 @@ function setListPagePois(offset)
     }
     var contentTemplate = "";
     var limit = (paginationNum > 0) ? offset + paginationNum : Object.keys(pois).length;
+
     for (var i = offset; i < limit; i++) {
         var poi = pois[i + 1];
         if (isFilterSelected(poi.category)) {
